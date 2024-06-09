@@ -1,0 +1,82 @@
+header {
+   display: inline;
+}
+body {
+   font-family: sans-serif;
+
+}
+nav {
+   background-color: #b8de6f;
+   padding: 5px;
+   position: sticky;
+   top: 0;
+   margin: 0 auto;
+	width: 90%;
+}
+h2 {
+   color: #00a2c6
+}
+ 
+h3 {
+   color: #00a2c6
+}
+footer {
+   padding: 10px;
+   color: white;
+   background-color: #f39233;
+   margin: 0 auto;
+	width: 90%;
+}
+html {
+  font-family: sans-serif;
+  -webkit-text-size-adjust: 100%;
+      -ms-text-size-adjust: 100%;
+}
+#content {
+	margin: 0 auto;
+	width: 90%;
+
+}
+
+aside {
+   margin: 0 auto;
+   overflow: auto;
+   width: 90%;
+	background-color: #fadcaa;
+}
+main {
+   margin: 0 auto;
+   overflow: auto;
+   width: 90%;
+   background-color: #f1e189;
+}
+* {
+   box-sizing: border-box;
+}
+.jumbotron {
+   font-size: 20px;
+   padding: 5px;
+   background-color: #01c5c4;
+   text-align: center;
+   color: white;
+   margin: 0 auto;
+	width: 90%;
+}
+nav li {
+   display: inline;
+   list-style-type: none;
+   margin-right: 20px;
+}
+nav a {
+   font-size: 18px;
+   font-weight: 400;
+   text-decoration: none;
+   color: white;
+}
+@media screen and (max-width: 1000px) {
+   #content,
+   aside {
+       width: 100%;
+       padding: 0;
+   }
+}
